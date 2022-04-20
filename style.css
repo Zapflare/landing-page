@@ -168,3 +168,41 @@ li {
     font-weight: bold;
     text-align: right;
 }
+
+.cta-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 4% 0;
+    width: 60%;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    color: #fff;
+    display: flex;
+    padding: 12px 128px;
+}
+
+.cta-button button {
+    background-color: #3882F6;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    flex: 2;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 12px 32px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.cta-text {
+    align-self: flex-start;
+    flex-basis: 80%;
+}
