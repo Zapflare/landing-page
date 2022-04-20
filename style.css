@@ -171,19 +171,19 @@ li {
 
 .cta-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     margin-left: 20%;
     margin-right: 20%;
     padding: 4% 0;
-    width: 60%;
 }
 
 .cta-box {
+    align-items: center;
     background-color: #3882F6;
     color: #fff;
     display: flex;
+    height: 120px;
     padding: 12px 128px;
+    width: 800px;
 }
 
 .cta-button button {
@@ -191,18 +191,35 @@ li {
     border: 2px solid #fff;
     border-radius: 6px;
     color: #fff;
-    flex: 2;
+    display: flex;
     font-size: 16px;
     font-weight: 800;
-    padding: 12px 32px;
+    padding: 8px 32px;
 }
 
 .cta-title {
+    display: flex;
+    flex: 1 0 55%;
     font-size: 24px;
     font-weight: bolder;
+    height: 40px;
+    width: 600px;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
 }
 
 .cta-text {
-    align-self: flex-start;
-    flex-basis: 80%;
+    display: flex;
+    flex: 1 0 55%;
+    height: 75px;
+    order: 2;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
 }
